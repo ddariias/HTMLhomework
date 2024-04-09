@@ -1,0 +1,48 @@
+header{
+    height: 15vh;
+    background: #D9D9D9;
+}
+.box{
+    height: 75vh;
+    display: flex;
+}
+.a-1 {
+    width: 33vw;
+    align-items: start;
+}
+
+.box_1{
+    height: 25vh;
+    background-color:  #A5A5A3;
+
+
+}
+.box_2{
+    height: 25vh;
+    background-color:  #BABAB9;
+}
+.box_3{
+    height: 25vh;
+    background-color:  #979796;
+
+}
+.box_4{
+    width: 33vw;
+    height: 75vh;
+    background: #61615C;
+}
+.a-2{
+    width: 33vw;
+}
+.box_5{
+    height: 38vh;
+    background: #78786F;
+}
+.box_6{
+    height: 37vh;
+    background: #828569;
+}
+footer{
+    height: 10vh;
+    background: #D9D9D9;
+}

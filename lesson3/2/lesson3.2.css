@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+#orange{
+    height: 100vh;
+    background-color: coral;
+}
+#blue{
+    height: 100vh;
+    background-color: cyan;
+}
+#green{
+    height: 100vh;
+    background-color: green;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 50px;
+}
+h1, p{
+    margin: 5px;
+}
