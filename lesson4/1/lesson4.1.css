@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+/*----------------page1-----------------------------*/
+section{
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://s3-alpha-sig.figma.com/img/f2d3/038b/985d94469dd3e4e59a048b8ad995f428?Expires=1713744000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=DZBj43GFCUotJAP3tk4tc4yRKFDDP0KKkfBNFY58bVNiyYbBf8rX2JnS9v0GUNPuSJCSGMLWXz~W0e5hEXBssAncOOO3w12US1HUWB76QPtA0TvqYcH~oNVYM6oQzSCdN-ln-u98UMJJ-r~QBLKmB4mNEemrjbtbnUUpHnUYFbX0Uw2BOEEmZFfM00-wJoux9uIQ4zTwjDqjchvP75OCI~2g8Us7ZLQVN7aHP9xczJqQX-OLiNS2SquVbzdwAy6qUtUBaDD54pZ27gdG-z1E1BHnPbywzTFqa3LzoagJz~jYIMOpWpd8vTssgF9KcFHnMMEnqTC9fDGa1a6uJ2phIg__");
+    background-size: cover;
+}
+img{
+    width: 34.9vw;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.menu{
+    height: 40vh;
+    width: 34.9vw;
+    background-color: #FAF9F7;
+    text-align: center;
+    font-family: "KoHo", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+
+}
+.menu h1{
+    padding: 60px 20px 20px 20px;
+}
+.menu p{
+    padding-bottom: 30px;
+}
+button{
+    width: 230px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid rgba(156, 152, 152, 0.10);
+    background: rgba(217, 217, 217, 0.60);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+;
+}
+.photo-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 200px;
+
+}
+/*-------------------page2------------------------------*/
+.page-2{
+    width: 100%;
+    height: 100vh;
+    background: url(2.png) lightgray 50% / cover no-repeat;
+    flex-direction: column;
+    padding-bottom: 200px;
+}
+.video{
+    width: 1149px;
+    height: 733px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 131px;
+
+}
+.text p{
+    width: 62.7vw;
+    height: 52.3vh;
+    text-align: center;
+}
+
+.text{
+    width: 1149px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "KoHo", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 34px;
+    padding-left: 131px;
+
+
+}
+/*------------------------page3----------------------------------*/
+.page-3{
+    width: 100%;
+    height: 100vh;
+    background: url("3.png");
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.box{
+    width: 453.6px;
+    height: 700px;
+    background-color: #53535366;
+    margin: 10px;
+
+
+}
+.box img{
+    width: 408.6px;
+    height: 214px;
+    margin: 25px 22px 0 23px;
+}
+.textlorem{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "KoHo", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 35px;
+}
+.textlorem h1{
+    padding: 30px 20px;
+}
+.textlorem span{
+    padding: 30px 0 0 20px;
+}
+.textlorem button{
+    width: 409px;
+    height: 76px;
+    border-radius: 5px;
+    border: 1px solid rgba(156, 152, 152, 0.10);
+    background: rgba(217, 217, 217, 0.60);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    margin: 30px 20px;
+
+    color: #6B6666;
+
+
+}
