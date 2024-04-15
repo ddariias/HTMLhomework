@@ -1,0 +1,40 @@
+.header>div{
+    background-color: #63a5e5;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+}
+div{
+    margin: 5px;
+}
+main{
+    background-color: #63a5e5;
+    height: 40vh;
+}
+.article>div{
+    background-color: #63a5e5;
+}
+footer{
+    background-color: #63a5e5;
+    height: 10vh;
+}
+#article-1{
+    grid-area: article-1;
+}
+#article-2{
+    grid-area: article-2;
+}
+#article-3 {
+    grid-area: article-3;
+}
+#article-4 {
+    grid-area: article-4;
+}
+.article{
+    display: grid;
+    grid-template-areas:
+    "article-1 article-2"
+    "article-3 article-4";
+    height: 40vh;
+}

@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+}
+    .box-1 {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+
+    }
+
+    header {
+        height: 30vh;
+        background-color: #6B6666;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 5px;
+    }
+
+    main {
+        grid-area: main;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid;
+        width: 70vw;
+        height: 70vh;
+        background-color: #6B6666;
+    }
+
+    footer {
+        grid-area: footer;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid;
+        width: 29vw;
+        margin-left: 5px;
+        background-color: #6B6666;
+    }

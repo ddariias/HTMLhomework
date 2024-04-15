@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+}
+header, #left-1, #left-2, #left-3, #left-4, .right {
+    background-color: #6B6666;
+}
+header{
+    height: 25vh;
+}
+
+.box{
+    margin-top:5px ;
+    display: flex;
+}
+.left{
+    width: 70vw;
+}
+
+.right{
+    width: 30vw;
+    height: 75vh;
+}
+#left-1, #left-2, #left-3, #left-4{
+    height: 36.5vh;
+    margin: 5px;
+}
+#left-1{
+    grid-area: left-1;
+}
+#left-2{
+    grid-area: left-2;
+}
+#left-3{
+    grid-area: left-3;
+}
+#left-4{
+    grid-area: left-4;
+}
+.left{
+    display: grid;
+    grid-template-areas:
+    "left-1 left-1 left-1"
+    "left-2 left-3 left-4";
+
+}
+body{
+   text-align: center;
+}
+.right{
+    margin: 5px;
+}

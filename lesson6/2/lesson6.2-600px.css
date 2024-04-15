@@ -1,0 +1,16 @@
+@media screen and (max-width: 600px) {
+    .box{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .left{
+        width: 100vw;
+    }
+    .right{
+        width: 100vw;
+        height: 20vh;
+    }
+    #left-1, #left-2, #left-3, #left-4{
+        height: 24vh;
+    }
+}
